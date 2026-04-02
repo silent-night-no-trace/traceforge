@@ -1,0 +1,45 @@
+name: Feature request
+description: Suggest an improvement to Traceforge.
+title: "feature: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement.
+
+        Please keep requests close to Traceforge's core loop:
+        `capture -> inspect -> replay -> export test`.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What user problem or workflow gap are you trying to solve?
+      placeholder: Describe the pain point clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should Traceforge do?
+      placeholder: Describe the behavior, UI, CLI, or package API you want.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Affected area
+      description: Which part of the repo would this touch?
+      placeholder: apps/cli, apps/viewer, packages/core, packages/schema, adapters, fixtures, docs, etc.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What are you doing today, or what other options did you consider?
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples or prior art
+      description: Links, screenshots, mockups, or comparable tooling are welcome.
