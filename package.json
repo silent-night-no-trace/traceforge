@@ -5,6 +5,14 @@
   "description": "Open-source replay and regression testing for AI agents.",
   "license": "MIT",
   "author": "Traceforge contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-night-no-trace/traceforge.git"
+  },
+  "homepage": "https://github.com/silent-night-no-trace/traceforge#readme",
+  "bugs": {
+    "url": "https://github.com/silent-night-no-trace/traceforge/issues"
+  },
   "keywords": [
     "agents",
     "ai",
