@@ -108,6 +108,10 @@ See `SECURITY.md` for the current policy.
 
 MIT. See `LICENSE`.
 
+## Friendly Links
+
+- [linux.do](https://linux.do/)
+
 ## Repository Guide
 
 - Product and system design: `ARCHITECTURE.md`

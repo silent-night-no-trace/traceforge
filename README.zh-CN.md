@@ -108,6 +108,10 @@ pnpm changeset
 
 MIT，详见 `LICENSE`。
 
+## 友链
+
+- [linux.do](https://linux.do/)
+
 ## 仓库导航
 
 - 产品与系统设计：`ARCHITECTURE.md`
