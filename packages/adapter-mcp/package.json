@@ -1,0 +1,40 @@
+{
+  "name": "@traceforge/adapter-mcp",
+  "version": "0.0.0",
+  "description": "MCP capture adapter for Traceforge bundles and tool-call traces.",
+  "license": "MIT",
+  "author": "Traceforge contributors",
+  "keywords": [
+    "traceforge",
+    "mcp",
+    "adapter",
+    "capture",
+    "testing"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "dev": "tsup src/index.ts --format esm --dts --watch",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@traceforge/core": "workspace:*",
+    "@traceforge/schema": "workspace:*"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "@traceforge/fixtures",
+  "version": "0.0.0",
+  "description": "Regression fixture and generated test helpers for Traceforge.",
+  "license": "MIT",
+  "author": "Traceforge contributors",
+  "keywords": [
+    "traceforge",
+    "fixtures",
+    "regression",
+    "vitest",
+    "testing"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "dev": "tsup src/index.ts --format esm --dts --watch",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@traceforge/core": "workspace:*",
+    "@traceforge/schema": "workspace:*"
+  }
+}

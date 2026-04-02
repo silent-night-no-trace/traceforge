@@ -1,0 +1,12 @@
+node_modules
+dist
+coverage
+playwright-report
+test-results
+.vite
+.traceforge
+.DS_Store
+*.log
+*.tgz
+.env
+.env.*

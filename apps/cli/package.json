@@ -1,0 +1,41 @@
+{
+  "name": "@traceforge/cli",
+  "version": "0.0.0",
+  "description": "Traceforge command-line tools for capture, replay, inspection, and test export.",
+  "license": "MIT",
+  "author": "Traceforge contributors",
+  "keywords": [
+    "traceforge",
+    "cli",
+    "agents",
+    "testing",
+    "replay",
+    "regression"
+  ],
+  "type": "module",
+  "bin": {
+    "traceforge": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@traceforge/adapter-browser": "workspace:*",
+    "@traceforge/adapter-mcp": "workspace:*",
+    "@traceforge/adapter-terminal": "workspace:*",
+    "@traceforge/core": "workspace:*",
+    "@traceforge/fixtures": "workspace:*",
+    "commander": "^13.1.0"
+  }
+}

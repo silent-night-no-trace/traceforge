@@ -1,0 +1,33 @@
+{
+  "name": "@traceforge/viewer",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Local Traceforge viewer application for inspecting trace bundles.",
+  "license": "MIT",
+  "author": "Traceforge contributors",
+  "keywords": [
+    "traceforge",
+    "viewer",
+    "react",
+    "trace",
+    "debugging"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@traceforge/schema": "workspace:*",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.2.0"
+  }
+}
