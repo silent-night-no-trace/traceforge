@@ -4,6 +4,15 @@
   "description": "MCP capture adapter for Traceforge bundles and tool-call traces.",
   "license": "MIT",
   "author": "Traceforge contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-night-no-trace/traceforge.git",
+    "directory": "packages/adapter-mcp"
+  },
+  "homepage": "https://github.com/silent-night-no-trace/traceforge/tree/main/packages/adapter-mcp",
+  "bugs": {
+    "url": "https://github.com/silent-night-no-trace/traceforge/issues"
+  },
   "keywords": [
     "traceforge",
     "mcp",

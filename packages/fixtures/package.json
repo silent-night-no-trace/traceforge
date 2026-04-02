@@ -4,6 +4,15 @@
   "description": "Regression fixture and generated test helpers for Traceforge.",
   "license": "MIT",
   "author": "Traceforge contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-night-no-trace/traceforge.git",
+    "directory": "packages/fixtures"
+  },
+  "homepage": "https://github.com/silent-night-no-trace/traceforge/tree/main/packages/fixtures",
+  "bugs": {
+    "url": "https://github.com/silent-night-no-trace/traceforge/issues"
+  },
   "keywords": [
     "traceforge",
     "fixtures",

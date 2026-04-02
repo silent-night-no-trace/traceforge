@@ -4,6 +4,15 @@
   "description": "Terminal capture adapter for Traceforge bundles.",
   "license": "MIT",
   "author": "Traceforge contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-night-no-trace/traceforge.git",
+    "directory": "packages/adapter-terminal"
+  },
+  "homepage": "https://github.com/silent-night-no-trace/traceforge/tree/main/packages/adapter-terminal",
+  "bugs": {
+    "url": "https://github.com/silent-night-no-trace/traceforge/issues"
+  },
   "keywords": [
     "traceforge",
     "terminal",

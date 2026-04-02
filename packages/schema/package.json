@@ -4,6 +4,15 @@
   "description": "Canonical Traceforge schema and capability contract.",
   "license": "MIT",
   "author": "Traceforge contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-night-no-trace/traceforge.git",
+    "directory": "packages/schema"
+  },
+  "homepage": "https://github.com/silent-night-no-trace/traceforge/tree/main/packages/schema",
+  "bugs": {
+    "url": "https://github.com/silent-night-no-trace/traceforge/issues"
+  },
   "keywords": [
     "traceforge",
     "schema",

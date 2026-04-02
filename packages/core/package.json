@@ -4,6 +4,15 @@
   "description": "Core Traceforge bundle, replay, and local view-server utilities.",
   "license": "MIT",
   "author": "Traceforge contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-night-no-trace/traceforge.git",
+    "directory": "packages/core"
+  },
+  "homepage": "https://github.com/silent-night-no-trace/traceforge/tree/main/packages/core",
+  "bugs": {
+    "url": "https://github.com/silent-night-no-trace/traceforge/issues"
+  },
   "keywords": [
     "traceforge",
     "core",
