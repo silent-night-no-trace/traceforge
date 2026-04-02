@@ -1,5 +1,7 @@
 # Traceforge
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 > Open-source replay and regression testing for AI agents.
 >
 > Capture real runs. Replay failures. Export tests.
