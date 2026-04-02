@@ -4,6 +4,15 @@
   "description": "Traceforge command-line tools for capture, replay, inspection, and test export.",
   "license": "MIT",
   "author": "Traceforge contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-night-no-trace/traceforge.git",
+    "directory": "apps/cli"
+  },
+  "homepage": "https://github.com/silent-night-no-trace/traceforge/tree/main/apps/cli",
+  "bugs": {
+    "url": "https://github.com/silent-night-no-trace/traceforge/issues"
+  },
   "keywords": [
     "traceforge",
     "cli",

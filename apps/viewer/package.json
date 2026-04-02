@@ -5,6 +5,15 @@
   "description": "Local Traceforge viewer application for inspecting trace bundles.",
   "license": "MIT",
   "author": "Traceforge contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-night-no-trace/traceforge.git",
+    "directory": "apps/viewer"
+  },
+  "homepage": "https://github.com/silent-night-no-trace/traceforge/tree/main/apps/viewer",
+  "bugs": {
+    "url": "https://github.com/silent-night-no-trace/traceforge/issues"
+  },
   "keywords": [
     "traceforge",
     "viewer",
